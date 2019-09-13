@@ -1,8 +1,9 @@
 const calcArr = [];
+
 function updateDisplay(value) {
-    var calcArr = [];
+    //var calcArr = [];
     let newArr = calcArr.push(value);
-    console.log(value);
+    console.log(calcArr);
 };
 
 function equalsButton() {
