@@ -9,3 +9,7 @@ function updateDisplay(value) {
 function equalsButton() {
     console.log(newArr);
 };
+
+function clearButton() {
+    
+}
