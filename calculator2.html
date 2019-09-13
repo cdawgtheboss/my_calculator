@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="app.css">
     <script src="main.js"></script>
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
 <body>
     <div class="date_display"></div>
@@ -15,8 +15,9 @@
             <div class="display"></div>
             <div class="button_row">
                 <button name="one" value="1"
-                onclick="logNum()">1</button>
-                <button name="two" value="2">2</button>
+                onclick="updateDisplay(1)">1</button>
+                <button name="two" value="2"
+                onclick="updateDisplay(2)">2</button>
                 <button name="three" value="3">3</button>
                 <button name="plus" value="+">+</button>
             </div>
@@ -35,7 +36,8 @@
             <div class="button_row">
                 <button name="clear" value=" ">C</button>
                 <button name="zero" value="0">0</button>
-                <button name="equals" value="=">=</button>
+                <button name="equals" value="="
+                onclick="equalsButton()">=</button>
                 <button name="divide" value="/">/</button>
             </div>
         </div>
